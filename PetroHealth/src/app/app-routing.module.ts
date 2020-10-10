@@ -32,10 +32,6 @@ const routes: Routes = [
     loadChildren: () => import('./primeiros-soc/primeiros-soc.module').then( m => m.PrimeirosSocPageModule)
   },
   {
-    path: 'agendamento',
-    loadChildren: () => import('./agendamento/agendamento.module').then( m => m.AgendamentoPageModule)
-  },
-  {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
