@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Calendario',
-      url: '/folder/Favorites',
+      url: 'calendario',
       icon: ''
     },
     {
@@ -34,7 +34,7 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Loja',
-      url: 'home',
+      url: 'loja',
       icon: ''
     }
   ];

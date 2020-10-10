@@ -8,10 +8,6 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'folder/:id',
-    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
-  },
-  {
     path: 'tarefas-diarias',
     loadChildren: () => import('./tarefas-diarias/tarefas-diarias.module').then( m => m.TarefasDiariasPageModule)
   },
@@ -42,7 +38,12 @@ const routes: Routes = [
   {
     path: 'relatorio',
     loadChildren: () => import('./relatorio/relatorio.module').then( m => m.RelatorioPageModule)
+  },
+  {
+    path: 'loja',
+    loadChildren: () => import('./loja/loja.module').then( m => m.LojaPageModule)
   }
+
 ];
 
 @NgModule({

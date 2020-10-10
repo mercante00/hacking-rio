@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { MenuController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-calendario',
-  templateUrl: './calendario.page.html',
-  styleUrls: ['./calendario.page.scss'],
+  selector: 'app-loja',
+  templateUrl: './loja.page.html',
+  styleUrls: ['./loja.page.scss'],
 })
-export class CalendarioPage implements OnInit {
+export class LojaPage implements OnInit {
 
   constructor(private menu:MenuController) { }
 
